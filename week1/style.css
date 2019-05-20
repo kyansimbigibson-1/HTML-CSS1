@@ -1,0 +1,79 @@
+#Myheader{
+    color: pink
+}
+
+body {
+  text-align: center;
+  background-color: rgb(8, 96, 126);
+  background-size:cover;
+  background-position:center;
+  background:-no repeat;
+  color: black;
+  font-family: helvetica;
+}
+p{
+  font-size:22px;
+  }
+  img{
+    margin: 40px 0px 0px 0px;
+    border:7px solid GREY;
+    border-radius:200px
+    }
+  input{
+    border:0;
+    padding:10px;
+    font-size:18px;
+
+    }
+    li { text-emphasis: pink;;
+        font-size: 22px;
+        font-family: Arial; 
+        background:;
+        
+        padding: 0px 10px 0px 10px
+        margin:10px;
+        padding:10px;
+        list-style:none;
+
+      }
+      ul li {
+        float: left;
+        width: 100px;
+        height: 10px;
+       
+        opacity: .8;
+        text-align: left;
+        line-height: 40px;
+        font-size:20px;
+      }
+      ul li a{
+       text-decoration: none;
+       color: white;
+       display: block;
+
+      }
+      ul li a:hover{
+        background-color: green;
+      }
+      ul li ul li{
+        display: none;
+
+      }
+      ul li hover ul li {
+        display: block;
+      }
+
+    input[type="submit"]{
+      background:red;
+      color:white;
+      }
+      article{
+        max-width:900px;
+        padding: 20px;
+        margin: 0 auto;
+        }
+        @media (max-width:500px){
+            body{
+              background:red;
+              }
+            }
